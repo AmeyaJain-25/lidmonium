@@ -1,9 +1,26 @@
 {
   "name": "lidmonium",
   "version": "0.1.0",
+  "description": "Virtual harmonium in the browser — play by lid: move the lid like a harmonium bellow. Keyboard or on-screen keys, sargam and Western notation, preset songs",
   "private": true,
-  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AmeyaJain-25/lidmonium.git"
+  },
+  "keywords": [
+    "harmonium",
+    "keyboard",
+    "music",
+    "sargam",
+    "Tone.js",
+    "React"
+  ],
   "dependencies": {
+    "@radix-ui/react-progress": "^1.1.8",
+    "@radix-ui/react-select": "^2.2.6",
+    "@radix-ui/react-slot": "^1.2.4",
+    "@radix-ui/react-switch": "^1.2.6",
+    "@radix-ui/react-tabs": "^1.1.13",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.1.0",
@@ -12,11 +29,22 @@
     "@types/node": "^16.7.13",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.468.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-scripts": "5.0.1",
+    "tailwind-merge": "^3.5.0",
+    "tailwindcss-animate": "^1.0.7",
+    "tone": "^15.1.22",
     "typescript": "^4.4.2",
     "web-vitals": "^2.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.8",
+    "tailwindcss": "3"
   },
   "scripts": {
     "start": "react-scripts start",
